@@ -61,8 +61,8 @@ function Tasks (istream) {
       execute (x) {
         xs = [...xs, x]
         !timer && (timer = setTimeout (function () {
-          let idx = Size (xs) - 1
           if (tags) {
+            let idx = Size (xs) - 1
             let tag = tags[idx].trim ()
             ostream.send (tag)
           }

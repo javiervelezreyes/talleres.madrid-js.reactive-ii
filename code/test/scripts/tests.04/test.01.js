@@ -10,7 +10,7 @@ const E  = 'mousemove'
 const LX = ',   Vertical'.split (',') 
 const LY = ', Horizontal'.split (',') 
 const N  = 20
-const K  = 10
+const K  = 50
 
 let {PosX}   = Tests
 let {PosY}   = Tests
