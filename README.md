@@ -18,12 +18,6 @@ Ingeniero Informático por la Universidad Politécnica de Madrid y Doctor en Inf
 
 ### Live Coding
 
-- Notifications
-- Bindings
-- Signals
-- Channels
-- Boxes
-- Futures
 - Streams
 
 ### Contacto
