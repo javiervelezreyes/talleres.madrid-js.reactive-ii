@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rective JavaScript</title>
+    <link rel="stylesheet" href="/test/styles.css">
+    <script type="module" src="/src/helpers/helper.loader.js"></script>
+  </head>
+  <body>
+
+    <template id="action">
+      <button class="action button is-medium is-link">Start</button>
+    </template>
+
+    <template id="console">
+      <div class="column is-one-third">
+        <div class="console card">
+          <footer class="card-footer">
+            <p class="name card-footer-item"></p>
+          </footer>
+          <div class="data card-content"></div>
+          <footer class="card-footer">
+            <p class="stream card-footer-item"></p>
+          </footer>
+        </div>
+      </div>
+    </template>
+    
+    <template id="pool">
+      <div class="column is-one-third">
+        <div class="pool card">
+          <footer class="card-footer">
+            <p class="name card-footer-item"></p>
+          </footer>
+          <div class="data card-content"></div>
+          
+        </div>
+      </div>
+    </template>
+
+    <section class="hero is-primary is-link is-medium">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">Arquitecturas Reactivas en JavaScript II</p>
+          <p class="subtitle">Modelo de Streams - Core I</p>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li><a href="/test/test.html">..</a></li>
+              <li><a href="/test/tests.02.html?key=01">Test 01</a></li>
+              <li><a href="/test/tests.02.html?key=02">Test 02</a></li>
+              <li><a href="/test/tests.02.html?key=03">Test 03</a></li>
+              <li><a href="/test/tests.02.html?key=04">Test 04</a></li>
+              <li><a href="/test/tests.02.html?key=05">Test 05</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="actions" class="buttons is-centered">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="subtitle has-text-centered">Pools</p>
+        <div id="pools" class="buttons is-centered">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p id="loggers" class="subtitle has-text-centered">Loggers</p>
+        <div id="consoles" class="columns is-multiline is-centered">
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
